@@ -1,0 +1,47 @@
+.title {
+    text-align: center;
+    margin: 0px;
+}
+ .title h1 {
+    font-size: 40px;
+    margin-top: 0px;
+ }
+
+ .title h3 {
+    font-size: 30px;
+    margin: 0px;
+ }
+
+.description {
+    font-weight: 300;
+    font-size: 20px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+.movie {
+    display: flex;
+    justify-content: center;
+}
+
+ .movie img {
+    margin-right: 30px;
+ }
+
+.MovieDetail {
+    color: black;
+    margin: 100px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subText {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
