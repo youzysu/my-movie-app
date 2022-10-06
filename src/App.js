@@ -5,9 +5,9 @@ import Detail from "./routes/Detail"
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      <Routes basename="/my-movie-app">
         <Route 
-          path="/" 
+          path={`${process.env.PUBLIC_URL}/`}
           element={<Home />} 
         />
         <Route 
